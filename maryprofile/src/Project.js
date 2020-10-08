@@ -36,7 +36,7 @@ function Project() {
   return (
     <div className="project">
       <div className="project__1">
-        <h2>Personal Projects</h2>
+        <h1 className="project__title">Personal Projects</h1>
         <div className="project__row">
           <Row
             title={project[0].title}
@@ -44,28 +44,46 @@ function Project() {
             web={project[0].web}
             github={project[0].github}
           />
+        </div>
+        <div className="project__row">
           <Row
             title={project[1].title}
             imageUrl={project[1].imageUrl}
             web={project[1].web}
             github={project[1].github}
           />
+          {/* </div> */}
+          {/* <div className="project__row"> */}
+          <Row
+            title={project[2].title}
+            imageUrl={project[2].imageUrl}
+            web={project[2].web}
+            github={project[2].github}
+          />
+          <Row
+            title={project[3].title}
+            imageUrl={project[3].imageUrl}
+            web={project[3].web}
+            github={project[3].github}
+          />
         </div>
-      </div>
-
-      <div className="project__row">
-        <Row
-          title={project[2].title}
-          imageUrl={project[2].imageUrl}
-          web={project[2].web}
-          github={project[2].github}
-        />
-        <Row
-          title={project[3].title}
-          imageUrl={project[3].imageUrl}
-          web={project[3].web}
-          github={project[3].github}
-        />
+        <div className="project__1">
+          <h1 className="project__title">MVP Studio Internship projects</h1>
+          <div className="project__row">
+            <Row
+              title={project[2].title}
+              imageUrl={project[2].imageUrl}
+              web={project[2].web}
+              github={project[2].github}
+            />
+            <Row
+              title={project[3].title}
+              imageUrl={project[3].imageUrl}
+              web={project[3].web}
+              github={project[3].github}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

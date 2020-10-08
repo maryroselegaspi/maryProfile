@@ -25,9 +25,8 @@ function Header() {
       </Link>
       {/* </div> */}
       <div className={`header__links ${show && "header__black"}`}>
-        {/* <Link to="/">
-          <button className="header__link">Home</button>
-        </Link> */}
+        {/* <div className="header__links"> */}
+
         <Link to="/project">
           <button className="header__link">Projects</button>
         </Link>

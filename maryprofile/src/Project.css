@@ -3,6 +3,7 @@
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 80px;
 }
 
 .project__row {
@@ -12,4 +13,10 @@
   margin-right: 5px;
   margin-top: 54px;
   margin-bottom: 10px;
+}
+.project__1 {
+}
+.project__title {
+  padding-left: 15px;
+  padding-bottom: -15px;
 }
