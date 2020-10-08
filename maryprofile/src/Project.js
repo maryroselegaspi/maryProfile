@@ -37,6 +37,20 @@ function Project() {
     <div className="project">
       <div className="project__1">
         <h2>Personal Projects</h2>
+        <div className="project__row">
+          <Row
+            title={project[0].title}
+            imageUrl={project[0].imageUrl}
+            web={project[0].web}
+            github={project[0].github}
+          />
+          <Row
+            title={project[1].title}
+            imageUrl={project[1].imageUrl}
+            web={project[1].web}
+            github={project[1].github}
+          />
+        </div>
       </div>
 
       <div className="project__row">
