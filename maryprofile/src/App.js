@@ -14,6 +14,7 @@ function App() {
       <div className="app">
         <Switch>
           <Route path="/project">
+            <Header />
             <Project />
           </Route>
           {/* <Route path="/education">
