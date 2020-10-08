@@ -1,0 +1,37 @@
+.home {
+  padding: 30px;
+  /* margin-top: 80px; */
+  /* margin-bottom: 50px; */
+  /* width: 100%;
+  height: 400px;
+  max-width: 1500px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* justify-content: center;  */
+  background-image: url("https://yalantis.com/uploads/ckeditor/pictures/2916/dribble_perfect.gif");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* top: 5px; */
+}
+
+.home__text {
+  /* padding: 100px; */
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.home__text > h1 {
+  padding-bottom: 10px;
+}
+.home__name {
+  font-weight: 800px;
+  color: #e31b6d;
+}
