@@ -4,6 +4,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: 80px;
+  background-color: #141414;
 }
 
 .project__row {
@@ -13,10 +14,18 @@
   margin-right: 5px;
   margin-top: 54px;
   margin-bottom: 10px;
+  /* background-color: black; */
+  /* color: white; */
+
+  /* transition: transform 450ms; */
+}
+.project__row {
+  /* transform: scale(1.2); */
 }
 .project__1 {
 }
 .project__title {
   padding-left: 15px;
   padding-bottom: -15px;
+  /* color: white; */
 }

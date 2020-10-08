@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import Project from "./Project";
+import Education from "./Education";
 import Header from "./Header";
 
 function App() {
@@ -17,10 +18,11 @@ function App() {
             <Header />
             <Project />
           </Route>
-          {/* <Route path="/education">
-            <Home />
+          <Route path="/education">
+            <Header />
+            <Education />
           </Route>
-          <Route path="/resume">
+          {/* <Route path="/resume">
             <Home />
           </Route>
           <Route path="/contact">

@@ -36,7 +36,7 @@ function Project() {
   return (
     <div className="project">
       <div className="project__1">
-        <h1 className="project__title">Personal Projects</h1>
+        {/* <h1 className="project__title">Personal Projects</h1> */}
         <div className="project__row">
           <Row
             title={project[0].title}
@@ -67,7 +67,7 @@ function Project() {
             github={project[3].github}
           />
         </div>
-        <div className="project__1">
+        {/* <div className="project__1">
           <h1 className="project__title">MVP Studio Internship projects</h1>
           <div className="project__row">
             <Row
@@ -83,7 +83,7 @@ function Project() {
               github={project[3].github}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
