@@ -8,7 +8,7 @@ function Header() {
   const [show, handleShow] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 50) {
+      if (window.scrollY > 40) {
         handleShow(true);
       } else handleShow(false);
     });
@@ -22,7 +22,8 @@ function Header() {
       <div className="header__links">
         <Link to="/">
           {/* <img className="header__logo <Link to="/"> */}
-          <img className="header__logo" src={profile} alt="" />
+          {/* <img className="header__logo" src={profile} alt="" /> */}
+          <button className="header__link">Home</button>
         </Link>
         <Link to="/project">
           <button className="header__link">Projects</button>

@@ -1,11 +1,12 @@
-.project {
-  /* padding-top: 75px; */
-  max-width: 1500px;
+/* .project { */
+/* padding-top: 75px; */
+/* max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 80px;
-  background-color: #141414;
-}
+  background-color: #141414;  */
+/*need to remove this for carousel*/
+/* } */
 
 .project__row {
   display: flex;
@@ -28,4 +29,84 @@
   padding-left: 15px;
   padding-bottom: -15px;
   /* color: white; */
+}
+
+/* For the carousel */
+.project {
+  max-width: 1500px;
+  /* margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: center; */
+  padding-top: 70px;
+  /* background-color: white; */
+  /* color: aliceblue; */
+  /* justify-content: center; */
+  border: 4px solid red;
+}
+.project__title {
+  justify-content: center;
+  display: flex;
+  padding: 5px;
+  /* padding-left: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+  border: 1px solid blue;
+}
+.project__carousel {
+  border: 3px solid black;
+  display: flex;
+  padding: 10px;
+}
+.home__image {
+  width: 70%;
+  object-fit: contain;
+  /* z-index: 1; */
+  /* margin-bottom: -200px; */
+  border: 5px solid lightgray;
+  /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 5), rgba(0, 0, 0, 0)); */
+  height: 350px;
+  /* padding-top: 80px;
+  padding-bottom: 80px; */
+  /* padding: 80px; */
+  /* justify-content: center; */
+  /* margin-left: 10px; */
+  padding: 5px;
+  /* margin-right: 40px; */
+}
+/* TODO: REMOVE THIS */
+
+.project__info {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* position: relative; */
+  /* top: 10px; */
+  /* bottom: -500px; */
+  border: 1px solid palevioletred;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.project__infoTitle {
+  /* display: flex; */
+  /* justify-content: center; */
+  border: 1px solid lightblue;
+  padding: 20px;
+}
+.project__text {
+  border: 1px solid green;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.project__links {
+  border: 1px solid cyan;
+  padding: 20px;
+  display: flex;
+  /* justify-content: center; */
+}
+.project__link {
+  text-decoration: none;
+  border: 1px solid yellow;
 }
