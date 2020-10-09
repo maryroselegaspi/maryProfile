@@ -8,15 +8,17 @@
   /* margin-left: auto; */
   /* margin-right: auto; */
   /* justify-content: center;  */
-  background-image: url("https://yalantis.com/uploads/ckeditor/pictures/2916/dribble_perfect.gif");
-  background-color: #cccccc;
+  /* background-image: url("https://yalantis.com/uploads/ckeditor/pictures/2916/dribble_perfect.gif"); */
+  background-image: url("https://thumbs.gfycat.com/NecessaryCoarseChevrotain.webp");
+  background-color: #edf2f4;
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  /* top: 5px; */
-  /* display: flex; */
+
+  margin-top: 60px;
+  /* border: 2px solid white; */
 }
 /* .home__pic {
   position: relative;
@@ -33,12 +35,12 @@
   text-align: center;
   /* position: relative; */
   position: absolute;
-  top: 40%;
+  top: 50%;
   /* padding-left: 600px; */
   /* left: 110%; */
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: black;
 }
 
 .home__text > h1 {

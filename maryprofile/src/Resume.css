@@ -1,0 +1,39 @@
+.resume {
+  font-family: "Open Sans", sans-serif;
+  /* border: 1px solid red; */
+  margin-top: 60px;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+  border: 1px solid red;
+}
+/* Work Experience | Technical Expertise
+------------------------------------*/
+.work,
+.technical-expertise {
+  background: #8d99ae;
+}
+
+/* Education | Referees
+------------------------------------*/
+.education,
+.referees {
+  background: #edf2f4;
+}
+
+.content-wrap > h2 {
+  font-family: "Caveat", cursive;
+  font-weight: 250;
+  margin-bottom: 5px;
+  border: 1px solid black;
+}
+/* .content-wrap > h1 {
+  font-size: 80px;
+} */
+.content-wrap > h2 {
+  font-size: 32px;
+  margin-top: 0;
+}

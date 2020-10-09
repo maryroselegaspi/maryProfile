@@ -5,6 +5,8 @@ import Home from "./Home";
 import Project from "./Project";
 import Education from "./Education";
 import Header from "./Header";
+import Footer from "./Footer";
+import Resume from "./Resume";
 
 function App() {
   return (
@@ -22,15 +24,18 @@ function App() {
             <Header />
             <Education />
           </Route>
-          {/* <Route path="/resume">
-            <Home />
+          <Route path="/resume">
+            <Header />
+            <Resume />
+            <Footer />
           </Route>
-          <Route path="/contact">
+          {/* <Route path="/contact">
             <Home />
           </Route> */}
           <Route path="/">
             <Header />
             <Home />
+            <Footer />
           </Route>
         </Switch>
       </div>
