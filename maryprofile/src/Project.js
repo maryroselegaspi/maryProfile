@@ -80,7 +80,7 @@ function Project() {
             <div className="project__info">
               <h2 className="project__infoTitle">{project.title}</h2>
               <div>
-                <p className="project__text">Languages</p>
+                <p className="project__text">Languages | Tools | Library</p>
                 <ul>
                   {project.skills.map((i, index) => (
                     <li key={index}>{i}</li>
