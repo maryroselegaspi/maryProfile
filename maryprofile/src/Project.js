@@ -7,6 +7,8 @@ import amazon from "./images/amazon.png";
 import airbnb from "./images/airbnb.png";
 import AliceCarousel, { slideNext } from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import { Button } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 const project = [
   {
@@ -48,6 +50,7 @@ function Project() {
   //   setGalleryItems(img);
 
   //   console.log(galleryItems);
+  const handleClick = () => {};
   return (
     <div className="project">
       <h1 className="project__title">Projects</h1>
@@ -64,27 +67,38 @@ function Project() {
       >
         {project.map((project) => (
           <div className="project__carousel">
-            <img
-              key={project.id}
-              src={project.imageUrl}
-              alt=""
-              className="home__image"
-              // onDragStart={handleOnDragStart}
-            />
+            <a href={project.web} target="_blank">
+              <img
+                className="home__image"
+                key={project.id}
+                src={project.imageUrl}
+                alt=""
+                // onDragStart={handleOnDragStart}
+              />
+            </a>
+
             <div className="project__info">
               <h2 className="project__infoTitle">{project.title}</h2>
-              <p className="project__text">{project.skills}</p>
+              <div>
+                <p className="project__text">Languages</p>
+                <ul>
+                  {project.skills.map((i, index) => (
+                    <li key={index}>{i}</li>
+                  ))}
+                </ul>
+              </div>
+
               <div className="project__links">
-                <a className="project__link" href={project.web} target="_blank">
-                  See Web
-                </a>
-                <a
-                  className="project__link"
+                <Button
+                  variant="contained"
+                  color="primary"
+                  className="project__button"
                   href={project.github}
                   target="_blank"
+                  size="small"
                 >
-                  See Code
-                </a>
+                  See Source Code
+                </Button>
               </div>
             </div>
           </div>
