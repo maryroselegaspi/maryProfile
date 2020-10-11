@@ -19,10 +19,13 @@ function App() {
           <Route path="/project">
             <Header />
             <Project />
+            <Footer />
           </Route>
           <Route path="/education">
             <Header />
-            <Education />
+            {/* <Education /> */}
+            <Home />
+            <Footer />
           </Route>
           <Route path="/resume">
             <Header />

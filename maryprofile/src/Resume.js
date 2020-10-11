@@ -4,6 +4,18 @@ import "./Resume.css";
 function Resume() {
   return (
     <div className="resume">
+      <div className="resume__header">
+        <div className="content-wrap">
+          <h1>Mary Rose Legaspi</h1>
+          <h2>Junior Developer</h2>
+          <p>
+            {" "}
+            A recent graduate of Information Technology major in Computer
+            Science
+          </p>
+        </div>
+      </div>
+
       {/* <!-- // Education --> */}
       <section className="education">
         <div className="content-wrap">

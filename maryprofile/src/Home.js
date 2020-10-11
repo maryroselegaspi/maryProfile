@@ -15,7 +15,7 @@ function Home() {
       <center>
         <div className="home__text">
           <h1>
-            Hello, I'm <span className="home__name"> Mary Rose Legaspi</span>
+            Hello, I'm <span className="home__name"> Mary</span>
           </h1>
           <h2>A Full-Stack Software/Web Developer</h2>
         </div>

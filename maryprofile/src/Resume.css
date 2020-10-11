@@ -3,6 +3,13 @@
   /* border: 1px solid red; */
   margin-top: 60px;
 }
+.resume__header {
+  background: #8d99ae;
+  /* color: #8d99ae; */
+  /* color: white; */
+  text-align: center;
+  padding-bottom: 20px;
+}
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
