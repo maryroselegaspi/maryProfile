@@ -30,7 +30,7 @@ function Footer() {
           Facebook
         </a>
         <a
-          class="cv"
+          className="cv"
           href="https://drive.google.com/file/d/1As1A_9mlZZNd-UDcAELNdoDraBshhdkj/view?usp=sharing"
           target="_blank"
         >

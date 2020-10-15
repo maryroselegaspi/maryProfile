@@ -14,7 +14,7 @@ const project = [
   {
     id: 1,
     title: "Netflix Clone",
-    imageUrl: 'https://drive.google.com/file/d/1dDkLlKWwvoaVHPQd2Mpop0tvS-fLGbh-/view?usp=sharing',
+    imageUrl: netflix,
     web: "https://netflix-clone-f909a.web.app/",
     github: "https://github.com/maryroselegaspi/netflix-clone.git",
     skills: ["JavaScript", "React.js"],
@@ -22,7 +22,7 @@ const project = [
   {
     id: 2,
     title: "Amazon Clone",
-    imageUrl:'https://drive.google.com/file/d/13ohsX3TniEJa_3ImEjZ4ZlrvdzfCAv1B/view?usp=sharingzon',
+    imageUrl: amazon,
     web: "https://clone-9cc5f.web.app/",
     github: "https://github.com/maryroselegaspi/amazon-clone-mary.git",
     skills: ["JavaScript", "React.js"],
@@ -30,7 +30,7 @@ const project = [
   {
     id: 3,
     title: "Airbnb Clone",
-    imageUrl: 'https://drive.google.com/file/d/1Ix8xlD1DAo1RD38Yf3xosVcNFaSsdYWl/view?usp=sharing',
+    imageUrl: airbnb,
     web: "https://airbnb-clone-18e3e.web.app/",
     github: "https://github.com/maryroselegaspi/airbnb-clone-mary.git",
     skills: ["JavaScript", "React.js"],
@@ -38,7 +38,7 @@ const project = [
   {
     id: 4,
     title: "Instagram Clone",
-    imageUrl: 'https://drive.google.com/file/d/1rcnO7KYAx9otoyviGShL-7vBe4xNBCHF/view?usp=sharing',
+    imageUrl: instagram,
     web: "https://instagram-clone-da3b0.web.app/",
     github: "https://github.com/maryroselegaspi/instagram-clone.git",
     skills: ["JavaScript", "React.js"],
@@ -65,12 +65,12 @@ function Project() {
         dotsDisabled={false}
         // mouseTracking={true}
       >
-        {project.map((project) => (
+        {project.map((project, index) => (
           <div className="project__carousel">
             <a href={project.web} target="_blank">
               <img
                 className="home__image"
-                key={project.id}
+                key={index}
                 src={project.imageUrl}
                 alt=""
                 // onDragStart={handleOnDragStart}
