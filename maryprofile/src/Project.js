@@ -9,6 +9,8 @@ import AliceCarousel, { slideNext } from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
+import GitHubIcon from '@material-ui/icons/GitHub';
+import IconButton from '@material-ui/core/IconButton';
 
 const project = [
   {
@@ -75,6 +77,7 @@ function Project() {
                 alt=""
                 // onDragStart={handleOnDragStart}
               />
+              
             </a>
 
             <div className="project__info">
@@ -88,8 +91,8 @@ function Project() {
                 </ul>
               </div>
 
-              <div className="project__links">
-                <Button
+              <div className="project__links" >
+                {/* <Button
                   variant="contained"
                   color="primary"
                   className="project__button"
@@ -98,7 +101,18 @@ function Project() {
                   size="small"
                 >
                   See Source Code
-                </Button>
+                </Button> */}
+                <IconButton
+                  // variant="contained"
+                  color="primary"
+                  className="project__button"
+                  href={project.github}
+                  target="_blank"
+                  size="small">
+                    <GitHubIcon />
+
+                </IconButton>
+                
               </div>
             </div>
           </div>
