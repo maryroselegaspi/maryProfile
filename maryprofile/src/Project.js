@@ -14,7 +14,7 @@ const project = [
   {
     id: 1,
     title: "Netflix Clone",
-    imageUrl: netflix,
+    imageUrl: 'https://drive.google.com/file/d/1dDkLlKWwvoaVHPQd2Mpop0tvS-fLGbh-/view?usp=sharing',
     web: "https://netflix-clone-f909a.web.app/",
     github: "https://github.com/maryroselegaspi/netflix-clone.git",
     skills: ["JavaScript", "React.js"],
@@ -22,7 +22,7 @@ const project = [
   {
     id: 2,
     title: "Amazon Clone",
-    imageUrl: amazon,
+    imageUrl:'https://drive.google.com/file/d/13ohsX3TniEJa_3ImEjZ4ZlrvdzfCAv1B/view?usp=sharingzon',
     web: "https://clone-9cc5f.web.app/",
     github: "https://github.com/maryroselegaspi/amazon-clone-mary.git",
     skills: ["JavaScript", "React.js"],
@@ -30,7 +30,7 @@ const project = [
   {
     id: 3,
     title: "Airbnb Clone",
-    imageUrl: airbnb,
+    imageUrl: 'https://drive.google.com/file/d/1Ix8xlD1DAo1RD38Yf3xosVcNFaSsdYWl/view?usp=sharing',
     web: "https://airbnb-clone-18e3e.web.app/",
     github: "https://github.com/maryroselegaspi/airbnb-clone-mary.git",
     skills: ["JavaScript", "React.js"],
@@ -38,7 +38,7 @@ const project = [
   {
     id: 4,
     title: "Instagram Clone",
-    imageUrl: instagram,
+    imageUrl: 'https://drive.google.com/file/d/1rcnO7KYAx9otoyviGShL-7vBe4xNBCHF/view?usp=sharing',
     web: "https://instagram-clone-da3b0.web.app/",
     github: "https://github.com/maryroselegaspi/instagram-clone.git",
     skills: ["JavaScript", "React.js"],
