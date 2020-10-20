@@ -169,29 +169,29 @@ function Resume() {
               </a>
             </li>
           </ul>
-          <h3>Joel Binfield </h3>
+          {/* <h3>Joel Binfield </h3>
           <ul>
             <li>
               {" "}
               QUT Manager-International Student Engagement /Sessional Academic
             </li>
             <li>
-              <a href="mailto: joel.binfield@qut.edu.au">
+              <a href="mailto: ">
                 {" "}
-                joel.binfield@qut.edu.au
+                name here
               </a>
             </li>
-          </ul>
-          <h5>
+          </ul> */}
+          {/* <h5>
             Get{" "}
             <a
-              class="cv"
+              className="cv"
               href="https://drive.google.com/file/d/1As1A_9mlZZNd-UDcAELNdoDraBshhdkj/view?usp=sharing"
             >
               CV{" "}
             </a>{" "}
             to call referees
-          </h5>
+          </h5> */}
         </div>
       </section>
     </div>
