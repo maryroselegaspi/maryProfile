@@ -19,7 +19,7 @@ const project = [
     imageUrl: netflix,
     web: "https://netflix-clone-f909a.web.app/",
     github: "https://github.com/maryroselegaspi/netflix-clone.git",
-    skills: ["JavaScript", "React.js"],
+    skills: ['React Hooks', 'Material UI', 'Firebase hosting', 'TMDB API'],
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const project = [
     imageUrl: amazon,
     web: "https://clone-9cc5f.web.app/",
     github: "https://github.com/maryroselegaspi/amazon-clone-mary.git",
-    skills: ["JavaScript", "React.js"],
+    skills: [' React Hooks','React Router', 'React-Context API', 'Firebase(hosting, database & authentication)', 'Stripe payment'],
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const project = [
     imageUrl: airbnb,
     web: "https://airbnb-clone-18e3e.web.app/",
     github: "https://github.com/maryroselegaspi/airbnb-clone-mary.git",
-    skills: ["JavaScript", "React.js"],
+    skills: ['React Hooks', 'Material UI', 'React Router', 'Firebase hosting'],
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const project = [
     imageUrl: instagram,
     web: "https://instagram-clone-da3b0.web.app/",
     github: "https://github.com/maryroselegaspi/instagram-clone.git",
-    skills: ["JavaScript", "React.js"],
+    skills: ['React Hooks', 'Material UI', 'Firebase (hosting, database & authentication)'],
   },
 ];
 function Project() {
@@ -109,7 +109,7 @@ function Project() {
                   href={project.github}
                   target="_blank"
                   size="small">
-                    <GitHubIcon />
+                    <GitHubIcon  fontSize='large' />
 
                 </IconButton>
                 

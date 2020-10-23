@@ -105,21 +105,9 @@ function Resume() {
           {skills.map( skills =>
            <div>
              <h3>{skills[0]}</h3>
-          {skills[1].map(skill =>(<li className='bulletpoints'>{skill}</li>))}
+             {skills[1].map(skill =>(<li className='bulletpoints'>{skill}</li>))}
            </div>
             )}
-          {/* <h3> Languages</h3>
-          <ul>
-            <li>Python, C#, HTML, CSS</li>
-          </ul>
-          <h3> Databases</h3>
-          <ul>
-            <li>SQL, MongoDB</li>
-          </ul>
-          <h3>Tools, Libraries, Framework</h3>
-          <ul>
-            <li>Visual Studio 2017, Anaconda, Apache Spark, MATLAB</li>
-          </ul> */}
         </div>
       </section>
       {/* <!--//University Projects --> */}
