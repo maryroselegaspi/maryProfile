@@ -1,0 +1,96 @@
+.resume {
+  padding: 10px;
+  border: 1px solid pink;
+  font-family: "Open Sans", sans-serif;
+}
+.resume__header {
+  background-color: #2b2d42;
+  padding: 10px;
+  display: flex;
+}
+.color__green {
+  color: #59b785;
+}
+.header__left {
+  padding: 10px;
+  flex: 0.2;
+  color: white;
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+  /* border: 1px solid pink; */
+}
+.header__right {
+  flex: 0.8;
+  /* border: 1px solid pink; */
+  text-align: left;
+}
+.header__right > h3 {
+  font-size: 40px;
+}
+
+.header__right > h4 {
+  font-size: 25px;
+  color: white;
+  padding: 5px;
+}
+.header__right > h5 {
+  color: white;
+}
+.resume__details {
+  display: flex;
+}
+.contacts {
+  padding: 15px;
+}
+.contactlist {
+  display: flex;
+  padding-left: 30px;
+  /* border: 1px solid blue; */
+}
+.contacts__icon,
+.contacts__details {
+  padding: 2px;
+}
+.contacts__icon {
+  background-color: #2b2d42;
+  /* padding: 10px; */
+  border: 1px solid lightgray;
+}
+.contacts__details > a {
+  font-size: 12px;
+}
+.resume__left {
+  flex: 0.3;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+/* .resume > li {
+  text-align: left;
+} */
+.resume__leftSection {
+  padding: 5px;
+}
+.background__gray {
+  background-color: lightgray;
+}
+.background__white {
+  background-color: white;
+}
+
+.bulletpoints {
+  padding-left: 20px;
+  font-size: 12px;
+}
+.resume__right {
+  flex: 0.7;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+.resume_rightSection {
+  border-bottom: 1px solid lightgray;
+}
+.resume__footer {
+  padding: 10px;
+  background-color: #59b785;
+}

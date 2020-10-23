@@ -7,6 +7,7 @@ import Education from "./Education";
 import Header from "./Header";
 import Footer from "./Footer";
 import Resume from "./Resume";
+import Resume2 from "./Resume2";
 
 function App() {
   return (
@@ -32,9 +33,11 @@ function App() {
             <Resume />
             <Footer />
           </Route>
-          {/* <Route path="/contact">
-            <Home />
-          </Route> */}
+          <Route path="/contact">
+            <Header />
+            <Resume2 />
+            {/* <Footer /> */}
+          </Route>
           <Route path="/">
             <Header />
             <Home />
