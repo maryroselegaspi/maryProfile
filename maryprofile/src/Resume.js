@@ -1,17 +1,68 @@
 import React from "react";
 import "./Resume.css";
 
+
 function Resume() {
+
+  const qutAchievements = [
+  
+      'GPA of 6.5 in a 7 point scale',
+      'Dean\’s List Awards (2017, 2019)', 
+      'International Merit Scholarship Award'
+    
+    
+  ]
+
+  const school=[
+    ['Education Centre Australia', 'Professional Year','2020-2021',[],],
+    [
+      'Queensland University of Technology', 
+      'Masters of Information Technology (Computer Science)',
+      '2017-2019',
+      [
+        'GPA of 6.5 in a 7 point scale',
+        'Dean\’s List Awards (2017, 2019)', 
+        'International Merit Scholarship Award'
+      ]
+    ],
+    [
+      'New Era University', 
+      'Bachelor of Nursing', 
+      '2003-2007',
+      [
+        'Cum Laude',
+        'Dean\’s List (2003-2007)', 
+        'President\’s List', 
+        'With Highest Honours Award (Bachelor of Science in Nursing)', 
+        'Literacy Training Service Leadership Award',
+      ]
+    ]
+  ]
+
+  const neuAchievements = [
+    'Cum Laude',
+    'Dean\’s List (2003-2007)', 
+    'President\’s List', 
+    'With Highest Honours Award (Bachelor of Science in Nursing)', 
+    'Literacy Training Service Leadership Award',
+  ]
+  console.log(school)
   return (
     <div className="resume">
       <div className="resume__header">
         <div className="content-wrap">
           <h1>Mary Rose Legaspi</h1>
           <h2>Junior Developer</h2>
-          <p>
+          <p className='resume__headerDetails'>
             {" "}
-            A recent graduate of Information Technology major in Computer
-            Science
+            A focused and fast-learning software developer
+            who loves developing web applications and
+            solving problems. I am a hardworking, reliable,
+            and responsible nurse and individual who is
+            seeking opportunities to further my skills and
+            knowledge as a software and web developer. I
+            am highly adaptable to a new challenging
+            environment.
           </p>
         </div>
       </div>
@@ -20,16 +71,30 @@ function Resume() {
       <section className="education">
         <div className="content-wrap">
           <h2>Education</h2>
+          
+          <div>
+            {school.map(items =>(
+              <div className='education__section'>
+                <div className='education__sectionLeft'>
+                  <h3>{items[0]}</h3>
+                  <h4>{items[1]}</h4>
+                  {items[3].length >0
+                    ?
+                      <div>
+                        <h5 className='education__achievementsTitle'>Achievements:</h5>
+                        {items[3].map(achievments =><li className='education__achievements'>{achievments}</li>)}
+                    </div>
+                   :<div></div>
+                  }                 
+                </div>
+                <div className='education__sectionRight'>
+                  <h4>{items[2]}</h4>
+                </div>         
+              </div>             
+            ))}
+          </div>
 
-          {/* <!-- School details: copy this block to add more schools. --> */}
-          <h3>Queensland University of Technology - Brisbane, Australia</h3>
-          <h4>Masters of Information Technology, 2017-2019</h4>
-          <p>Major in Computer Science</p>
-          <p>GPA of 6.5 in a 7 point scale</p>
-
-          <h3>New Era University - Quezon City, Philippines</h3>
-          <h4>Bachelor of Science in Nursing, 2003-2007</h4>
-          <p>Graduated Cum-Laude.</p>
+        
         </div>
       </section>
 
@@ -56,7 +121,6 @@ function Resume() {
         <div className="content-wrap">
           <h2>University Projects</h2>
           <h3> Semester 1 -2019</h3>
-
           <ul>
             <li>
               <p>

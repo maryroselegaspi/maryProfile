@@ -44,3 +44,29 @@
   font-size: 32px;
   margin-top: 0;
 }
+
+.resume__headerDetails {
+  padding: 10px;
+}
+.education__section {
+  padding: 10px;
+  display: flex;
+  /* border: 1px solid lightgray; */
+}
+.education__sectionRight {
+  /* border: 1px solid lightgray; */
+  flex: 0.2;
+  /* margin-left: 150px; */
+  text-align: right;
+}
+.education__sectionLeft {
+  /* border: 1px solid lightgray; */
+  flex: 0.8;
+}
+
+.education__achievements {
+  padding-left: 20px;
+}
+.education__achievementsTitle {
+  font-weight: 600;
+}

@@ -28,9 +28,6 @@ function Header() {
         <Link to="/project">
           <button className="header__link">Projects</button>
         </Link>
-        <Link to="education">
-          <button className="header__link">Education</button>
-        </Link>
         <Link to="resume">
           <button className="header__link">Resume</button>
         </Link>

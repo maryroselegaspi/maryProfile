@@ -9,10 +9,7 @@ function Footer() {
       {/* <!-- Social media and contact links. Add or remove any networks. --> */}
       <div className="contact-info">
         <a href="mailto:maryrose.bne@gmail.com" target="_blank">
-          maryrose.bne@gmail.com
-        </a>
-        <a href="https://profile-d8ca3.web.app/" target="_blank">
-          Profile
+          maryrose.legaspi.bne@gmail.com
         </a>
         <a href="https://github.com/maryroselegaspi" target="_blank">
           GitHub
@@ -38,7 +35,7 @@ function Footer() {
         </a>
       </div>
       <p></p>
-      <p> by Mary Rose</p>
+      <p> @ Mary 2020</p>
     </div>
   );
 }
