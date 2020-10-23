@@ -4,15 +4,6 @@ import "./Resume.css";
 
 function Resume() {
 
-  const qutAchievements = [
-  
-      'GPA of 6.5 in a 7 point scale',
-      'Dean\’s List Awards (2017, 2019)', 
-      'International Merit Scholarship Award'
-    
-    
-  ]
-
   const school=[
     ['Education Centre Australia', 'Professional Year','2020-2021',[],],
     [
@@ -37,15 +28,25 @@ function Resume() {
         'Literacy Training Service Leadership Award',
       ]
     ]
-  ]
+  ];
 
-  const neuAchievements = [
-    'Cum Laude',
-    'Dean\’s List (2003-2007)', 
-    'President\’s List', 
-    'With Highest Honours Award (Bachelor of Science in Nursing)', 
-    'Literacy Training Service Leadership Award',
-  ]
+  const skills =[
+    ['Languages',
+      ['C#', 'JavaScript', 'Python', 'HTML', 'CSS',]
+    ],
+    ['Databases',
+      ['SQL', 'Microsoft SQL Server', 'MongoDB']
+    ],
+    ['Tools/Other skills',
+      ['.Net Core Framework', 'LINQ', 'Entity Framework', 'ASP .Net MVC', 'API','Data Analytics', ]
+    ],
+    ['Web Development',
+      ['React.js', 'Material-UI', "Semantic-UI"]
+    ]
+  ];
+  console.log(skills)
+
+  
   console.log(school)
   return (
     <div className="resume">
@@ -79,10 +80,9 @@ function Resume() {
                   <h3>{items[0]}</h3>
                   <h4>{items[1]}</h4>
                   {items[3].length >0
-                    ?
-                      <div>
+                    ?<div>
                         <h5 className='education__achievementsTitle'>Achievements:</h5>
-                        {items[3].map(achievments =><li className='education__achievements'>{achievments}</li>)}
+                        {items[3].map(achievments =><li className='bulletpoints'>{achievments}</li>)}
                     </div>
                    :<div></div>
                   }                 
@@ -102,7 +102,13 @@ function Resume() {
       <section className="technical-expertise">
         <div className="content-wrap">
           <h2> Technical Expertise</h2>
-          <h3> Languages</h3>
+          {skills.map( skills =>
+           <div>
+             <h3>{skills[0]}</h3>
+          {skills[1].map(skill =>(<li className='bulletpoints'>{skill}</li>))}
+           </div>
+            )}
+          {/* <h3> Languages</h3>
           <ul>
             <li>Python, C#, HTML, CSS</li>
           </ul>
@@ -113,7 +119,7 @@ function Resume() {
           <h3>Tools, Libraries, Framework</h3>
           <ul>
             <li>Visual Studio 2017, Anaconda, Apache Spark, MATLAB</li>
-          </ul>
+          </ul> */}
         </div>
       </section>
       {/* <!--//University Projects --> */}
