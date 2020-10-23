@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { cloneElement } from 'react';
 import './Resume2.css';
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
@@ -76,7 +76,45 @@ function Resume2() {
             'In charged with day-to-day operations of the pharmacy chain including training of new employees and facilitating requirements to ensure efficient delivery of services to customers'
             ],
           ],
-      ]
+      ];
+
+      const projects =[
+          [
+            'Netflix Clone',
+            'https://netflix-clone-f909a.web.app/',
+            ' React Hooks, Material UI, Firebase hosting, TMDB API'
+          ],
+          [
+            'Amazon Clone',
+            'https://clone-9cc5f.web.app/',
+            ' React Hooks,React Router, React-Context API, Firebase(hosting, database & authentication), Stripe payment'
+          ],
+          [
+            'Airbnb Clone',
+            'https://airbnb-clone-18e3e.web.app/',
+            ' React Hooks, Material UI, React Router, Firebase hosting'
+          ],
+          [
+            'Instagram Clone',
+            'https://instagram-clone-da3b0.web.app/',
+            ' React Hooks, Material UI, Firebase (hosting, database & authentication)'
+          ],       
+      ];
+
+      const uniProjects =[
+          [
+          'Project 2 | QUT',
+          'Machine learning by a tensor-based model approach to extend the knowledge in the YAGO knowledge graph by inferring new relations between entities.',
+          'Python, MATLAB, Tensor toolbox, YAGO knowledge graph, Panda, Numpy, Sckitlearn',
+          '2019',
+          ],
+          [
+            'Project 1 | QUT',
+            'Building scalable solution for predicting heart disease using Apache Spark MLlib deployed in standalone cluster mode.',
+            'Apache Spark, Spark ML library, MongoDB, Python, Linux virtual machine',
+            '2018'
+          ],
+        ]
    
     return (
         <div className='resume'>
@@ -87,7 +125,7 @@ function Resume2() {
                 </div>
                 <div className='header__right'>
                     <h3 className='color__green'>Mary Rose Legaspi</h3>
-                    <h5>_________________________________________________________________________</h5>
+                    <h5>_____________________________________________________________________________</h5>
                     <h4>FULL-STACK SOFTWARE DEVELOPER</h4>
                 </div>
             </div>
@@ -171,8 +209,8 @@ function Resume2() {
                                         }                 
                                         </div>
                                         <div className='education__sectionRight'>
-                                        <h4>{items[2]}</h4>
-                                    </div> 
+                                            <h4>{items[2]}</h4>
+                                        </div> 
                                        
                                 </div>             
                             ))}
@@ -204,9 +242,36 @@ function Resume2() {
                         
                         <div className='resume_rightSection_-date'></div>
                     </div>
+                    <div className='resume_rightSection'>
+                        <h3>UNVERSITY PROJECTS</h3>
+                        {uniProjects.map(items =>(
+                                <div className='education__section'>
+                                    <div className='education__sectionLeft'>
+                                        <h4>{items[0]}</h4>
+                                        <p>{items[1]}</p>
+                                        <p ><span className='bold'>Technologies:</span>{items[2]}</p>                                                 
+                                    </div> 
+                                    <div className='education__sectionRight'>
+                                        <h4>{items[3]}</h4>
+                                    </div> 
+                                 
+                             </div>             
+                            ))}
+                        <div className='rightSection__details'></div>
+                        <div className='resume_rightSection_-date'></div>
+                    </div>
                        
                     <div className='resume_rightSection'>
                         <h3>PERSONAL PROJECTS</h3>
+                        {projects.map(items =>(
+                                <div className='education__section'>
+                                    <div className='education__sectionLeft'>
+                                    <a href={items[1]} target="_blank"> {items[0]}</a>
+                                    <p className='text'><span className='bold'>Technologies:</span>{items[2]}</p>                                                 
+                                    </div> 
+                                       
+                                </div>             
+                            ))}
                         <div className='rightSection__details'></div>
                         <div className='resume_rightSection_-date'></div>
                     </div>

@@ -28,12 +28,12 @@ function App() {
             <Home />
             <Footer />
           </Route>
-          <Route path="/resume">
+          {/* <Route path="/resume">
             <Header />
             <Resume />
             <Footer />
-          </Route>
-          <Route path="/contact">
+          </Route> */}
+          <Route path="/resume">
             <Header />
             <Resume2 />
             {/* <Footer /> */}

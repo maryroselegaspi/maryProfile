@@ -23,14 +23,14 @@
 .header__right {
   flex: 0.8;
   /* border: 1px solid pink; */
-  text-align: left;
+  text-align: center;
 }
 .header__right > h3 {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .header__right > h4 {
-  font-size: 25px;
+  font-size: 30px;
   color: white;
   padding: 5px;
 }
@@ -58,7 +58,7 @@
   border: 1px solid lightgray;
 }
 .contacts__details > a {
-  font-size: 12px;
+  font-size: 14px;
 }
 .resume__left {
   flex: 0.3;
@@ -69,7 +69,12 @@
   text-align: left;
 } */
 .resume__leftSection {
-  padding: 5px;
+  padding-left: 20px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.resume__leftSection > h3 {
+  padding-bottom: 13px;
 }
 .background__gray {
   background-color: lightgray;
@@ -80,7 +85,7 @@
 
 .bulletpoints {
   padding-left: 20px;
-  font-size: 12px;
+  font-size: 16px;
 }
 .resume__right {
   flex: 0.7;
@@ -89,6 +94,17 @@
 }
 .resume_rightSection {
   border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+
+.bold {
+  font-weight: 600;
+  /* font-style: italic; */
+}
+
+.text {
+  text-align: justify;
+  padding-left: 10px;
 }
 .resume__footer {
   padding: 10px;

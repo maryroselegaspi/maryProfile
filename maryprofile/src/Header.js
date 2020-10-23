@@ -28,11 +28,11 @@ function Header() {
         <Link to="/project">
           <button className="header__link">Projects</button>
         </Link>
+        {/* <Link to="resume">
+          <button className="header__link">Resume</button>
+        </Link> */}
         <Link to="resume">
           <button className="header__link">Resume</button>
-        </Link>
-        <Link to="contact">
-          <button className="header__link">Contact</button>
         </Link>
       </div>
       {/* <div className="fadeBottom"></div> */}
