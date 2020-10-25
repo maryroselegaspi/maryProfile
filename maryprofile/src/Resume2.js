@@ -10,7 +10,6 @@ function Resume2() {
     const skills =[
         'C#', 'JavaScript', 'Python', 'HTML', 'CSS',
         'SQL', 'Microsoft SQL Server', 'MongoDB',
-        'Tools/Other skills',
         '.Net Core Framework', 'LINQ', 'Entity Framework', 'ASP .Net MVC', 'API','Data Analytics', 
         'Web Development', 'React.js', 'Material-UI', "Semantic-UI",
       ];
@@ -126,7 +125,7 @@ function Resume2() {
                 <div className='header__right'>
                     <h3 className='color__green'>Mary Rose Legaspi</h3>
                     <h5>_____________________________________________________________________________</h5>
-                    <h4>FULL-STACK SOFTWARE DEVELOPER</h4>
+                    <h4>FULL - STACK SOFTWARE DEVELOPER</h4>
                 </div>
             </div>
 

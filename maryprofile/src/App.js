@@ -36,7 +36,7 @@ function App() {
           <Route path="/resume">
             <Header />
             <Resume2 />
-            {/* <Footer /> */}
+            <Footer />
           </Route>
           <Route path="/">
             <Header />

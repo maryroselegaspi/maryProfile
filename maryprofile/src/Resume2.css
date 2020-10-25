@@ -1,6 +1,6 @@
 .resume {
   padding: 10px;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   font-family: "Open Sans", sans-serif;
 }
 .resume__header {
@@ -39,6 +39,7 @@
 }
 .resume__details {
   display: flex;
+  /* padding-left: 5pxs; */
 }
 .contacts {
   padding: 15px;
@@ -50,7 +51,7 @@
 }
 .contacts__icon,
 .contacts__details {
-  padding: 2px;
+  padding: 5px;
 }
 .contacts__icon {
   background-color: #2b2d42;
@@ -63,7 +64,7 @@
 .resume__left {
   flex: 0.3;
   padding: 10px;
-  border: 1px solid lightgray;
+  /* border: 1px solid lightgray; */
 }
 /* .resume > li {
   text-align: left;
@@ -90,10 +91,10 @@
 .resume__right {
   flex: 0.7;
   padding: 10px;
-  border: 1px solid lightgray;
+  /* border: 1px solid lightgray; */
 }
 .resume_rightSection {
-  border-bottom: 1px solid lightgray;
+  border-bottom: 2px solid lightgray;
   padding: 10px;
 }
 
